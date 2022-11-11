@@ -1,20 +1,19 @@
-public class Tranaction {
+public class Transaction {
 
    private String accountHolder;
 
    private int transactionNumber;
 
-   private double purchasePrice;
+   private doublepurchasePrice;
 
    private String purchaseName;
 
 
-    public Tranaction(String accountHolder, int transactionNumber, double purchasePrice, String purchaseName) {
+    public Transaction(String accountHolder, int transactionNumber, double purchasePrice, String purchaseName) {
         this.accountHolder = accountHolder;
         this.transactionNumber = transactionNumber;
         this.purchasePrice = purchasePrice;
         this.purchaseName = purchaseName;
-
 
 
     }
