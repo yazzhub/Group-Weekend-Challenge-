@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Bank {
-<<<<<<< HEAD
 
     Scanner scan = new Scanner (System.in);
     HashMap<Integer, Transaction> transactions;
@@ -24,7 +23,6 @@ public class Bank {
 
 
 }
-=======
-    //test run
-}
->>>>>>> origin/Yasmin
+
+
+
