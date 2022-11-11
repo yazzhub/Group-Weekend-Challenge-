@@ -4,7 +4,7 @@ public class Transaction {
 
    private int transactionNumber;
 
-   private doublepurchasePrice;
+   private double purchasePrice;
 
    private String purchaseName;
 
