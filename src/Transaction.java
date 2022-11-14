@@ -52,11 +52,10 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return "Tranaction{" +
-                "accountHolder='" + accountHolder + '\'' +
-                ", transactionNumber=" + transactionNumber +
-                ", purchasePrice=" + purchasePrice +
-                ", purchaseName='" + purchaseName + '\'' +
-                '}';
+        return "accountHolder:'" + accountHolder + '\'' +
+                ", \ntransactionNumber: " + transactionNumber +
+                ", \npurchasePrice: " + purchasePrice +
+                ", \npurchaseName: '" + purchaseName + '\'' +
+                "\n------------------------------";
     }
 }
