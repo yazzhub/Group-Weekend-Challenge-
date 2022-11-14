@@ -161,7 +161,6 @@ public class Bank {
         //transactions.put(newiD ,new Transaction(accountHolder,transactionNumber, purchasePrice, purchaseName));
     }
 
-
     public void deleteTransaction() {
         readTransactions();
         System.out.println("Provide the ID of the transaction you'd like to delete:");
