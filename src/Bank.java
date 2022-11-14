@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Bank {
-<<<<<<< HEAD
+
 
     Scanner scan = new Scanner (System.in);
     HashMap<Integer, Transaction> transactions = new HashMap<Integer,Transaction>();
@@ -12,16 +12,16 @@ public class Bank {
     public void welcomePage() {
         System.out.println("Welcome to Baddie Bank!");
     }
-=======
-    Scanner scan = new Scanner (System.in);
-    HashMap<Integer, Transaction> transactions;
+
+
+
 
     public Bank() {
         this.transactions = new HashMap<>();
     }
 
 
->>>>>>> 2156c88581d1cb0ebbcb29b7450a4f7df894546b
+
     public void crudOptions() {
 
         System.out.println("\nInput 'C' to create a new transaction");
@@ -92,7 +92,7 @@ public class Bank {
             updateMenu();
             //if user does not input an integer or String within cases, wrap this in try/catch block
             try {
-                in = scan.nextInt();
+                in = Integer.parseInt(scan.nextLine());
                 switch (in) {
                     case 1:
                         System.out.println("Input the new account holder's full name");
@@ -176,17 +176,11 @@ public class Bank {
         System.out.println("Provide the ID of the transaction you'd like to delete:");
         int iD = Integer.parseInt(scan.nextLine());
         transactions.remove(iD);
-<<<<<<< HEAD
-        System.out.println(transactions);
-    }
-}
-
-=======
         System.out.println("Here are your current transactions after the deletion:");
         readTransactions();
     }
-
 }
->>>>>>> 2156c88581d1cb0ebbcb29b7450a4f7df894546b
+
+
 
 
