@@ -6,7 +6,6 @@ public class Main {
 
      String options = " ";
 
-
         while (true) {
             tybank.crudOptions();
             options = scan.nextLine();
@@ -19,20 +18,14 @@ public class Main {
 
             } else if (options.equalsIgnoreCase("U")) {
                tybank.updateTransaction();
+
             } else if (options.equalsIgnoreCase("D")) {
                 tybank.deleteTransaction();
 
             } else if (options.equalsIgnoreCase("Q")) {
                 System.out.println("Have a blessed day!");
                 break;
-
             }
-
-
         }
     }
-}
-
-
-        }
 }
