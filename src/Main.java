@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
      Bank tybank = new Bank();
      Scanner scan = new Scanner(System.in);
-
+     tybank.welcomePage();
      String options = " ";
 
 
@@ -31,8 +31,4 @@ public class Main {
 
         }
     }
-}
-
-
-        }
 }
